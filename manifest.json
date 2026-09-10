@@ -14,7 +14,7 @@
     "scripting"
   ],
   "host_permissions": [
-    "*://*.example.com/*"
+    "<all_urls>"
   ],
   "background": {
     "service_worker": "background.js"
@@ -25,7 +25,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.example.com/*"],
+      "matches": ["<all_urls>"],
       "js": ["contentScript.js"],
       "run_at": "document_end"
     }
