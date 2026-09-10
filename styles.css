@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; width: 260px; padding: 12px; }
+h3 { margin: 0 0 10px 0; font-size: 16px; }
+label { display:block; margin:8px 0; font-size:13px; }
+input[type="text"] { width:100%; box-sizing: border-box; padding:4px; }
+.actions { margin-top:10px; display:flex; gap:6px; }
+button { flex:1; padding:6px; }
